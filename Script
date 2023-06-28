@@ -4,7 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "Developer hub | [ Beta ]", HidePremi
 OrionLib:MakeNotification({
 	Name = "Ready!",
 	Content = "Powerful from Game Hub v1.5",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://12206884774",
 	Time = 10
 })
 OrionLib:Init()
