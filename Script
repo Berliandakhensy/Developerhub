@@ -18,21 +18,28 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("Welcome, " .. game.Players.LocalPlayer.DisplayName)
 Tab:AddLabel("-- thanks for using my script --")
 Tab:AddLabel("-- Script : 63 --")
+Tab:AddLabel("-- status : ✅working✅ --")
 Tab:AddLabel("-- ⚠️this script auto updates⚠️ --")
-Tab:AddLabel("-- Credits --")
-Tab:AddLabel("-- dev_script --")
-Tab:AddLabel("-- YO_12#1889 --")
-Tab:AddLabel("-- privatehub --")
+Tab:AddLabel("-- 🌟Credits🌟 --")
+Tab:AddLabel("-- 🌟dev_script🌟 --")
+Tab:AddLabel("-- 🌟helpful friend🌟 --")
+Tab:AddLabel("-- 🌟YO_12#1889🌟 --")
 Tab:AddLabel("-- Join discord server --")
-Tab:AddLabel("-- Script x --")
-Tab:AddLabel("-- https://discord.gg/RTDxDDXsxS --")
+Tab:AddLabel("-- 👇script x👇 --")
+Tab:AddLabel("-- 👉https://discord.gg/RTDxDDXsxS👈 --")
+Tab:AddLabel("-- 👇My discord👇 --")
+Tab:AddLabel("-- 👇Developer hub👇 --")
+Tab:AddLabel("-- 👉https://discord.gg/6F6sP5Gq👈 --")
 Tab:AddLabel("-- Hope it is useful --")
+Tab:AddLabel("-- #Team Developer hub --")
+Tab:AddLabel("-- #Team script x --")
 
 local Tab = Window:MakeTab({
 	Name = "Script/Fe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 Tab:AddLabel("-- Script/Fe --")
 Tab:AddButton({
 	Name = "vfly",
