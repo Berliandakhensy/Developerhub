@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddLabel("Welcome, " .. game.Players.LocalPlayer.DisplayName)
 Tab:AddLabel("-- thanks for using my script --")
-Tab:AddLabel("-- Script : 63 --")
+Tab:AddLabel("-- Script : 64 --")
 Tab:AddLabel("-- status : ✅working✅ --")
 Tab:AddLabel("-- ⚠️this script auto updates⚠️ --")
 Tab:AddLabel("-- 🌟Credits🌟 --")
@@ -38,6 +38,17 @@ local Tab = Window:MakeTab({
 	Name = "Script/Fe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Fe orbit hat",
+	Callback = function()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Orbit%20hat%20V2", true))()
+      		print("button pressed")
+  	end    
 })
 
 Tab:AddLabel("-- Script/Fe --")
@@ -104,14 +115,6 @@ Tab:AddButton({
 	Name = "Chat hax",
 	Callback = function()
 	loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
-      		print("button pressed")
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Fe comet",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet"))();
       		print("button pressed")
   	end    
 })
@@ -230,6 +233,14 @@ Tab:AddButton({
 	Name = "CHAOS GUI",
 	Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1YQN7Vs2"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fe comet",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet"))();
       		print("button pressed")
   	end    
 })
